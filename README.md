@@ -13,3 +13,17 @@ python manage.py makemigrations
 # migrate migration
 python manage.py migrate
 ```
+
+### Using Python Virtual Environment
+
+```sh
+# Create a Python virtual environment (a folder called .venv will be created)
+python -m venv .venv
+
+# Activate the environment (Windows)
+# This runs the activate script inside the created .venv/Scripts folder
+.venv\Scripts\activate
+
+# Deactivate the environment when done
+deactivate
+```
